@@ -5,7 +5,8 @@
   },
   "functions": {
     "api/index.py": {
-      "maxDuration": 300
+      "maxDuration": 300,
+      "excludeFiles": "{assets/**,README.md,requirements.txt,*.md,*.txt,*.pyc,__pycache__/**,.pytest_cache/**,.ipynb_checkpoints/**}"
     }
   }
 }
