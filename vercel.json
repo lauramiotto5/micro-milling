@@ -1,4 +1,5 @@
 {
+  "buildCommand": "python -m pip install --disable-pip-version-check -r /dev/null",
   "env": {
     "PYTHONUNBUFFERED": "1"
   }
