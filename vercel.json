@@ -1,5 +1,6 @@
 {
-  "buildCommand": "python -m pip install --disable-pip-version-check -r /dev/null",
+  "installCommand": "echo \"Skipping dependency installation\"",
+  "buildCommand": "echo \"Skipping build\"",
   "env": {
     "PYTHONUNBUFFERED": "1"
   }
