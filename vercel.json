@@ -1,12 +1,7 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
+  "installCommand": "echo \"Skipping dependency installation\"",
+  "buildCommand": "echo \"Skipping build\"",
   "env": {
     "PYTHONUNBUFFERED": "1"
-  },
-  "functions": {
-    "api/index.py": {
-      "runtime": "python3.12",
-      "maxDuration": 299
-    }
   }
 }
